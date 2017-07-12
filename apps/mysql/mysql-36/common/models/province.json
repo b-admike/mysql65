@@ -1,0 +1,23 @@
+{
+  "name": "province",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "country": {
+      "type": "belongsTo",
+      "model": "country",
+      "foreignKey": "countryId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "myUser": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "myAppModel": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "myATModel": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "country": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "province": {
+    "dataSource": "mysqlDs",
+    "public": true
+  }
+}
