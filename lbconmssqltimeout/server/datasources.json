@@ -1,0 +1,13 @@
+{
+  "localmssql": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "",
+    "database": "master",
+    "password": "M55sqlT35t",
+    "name": "mssql",
+    "user": "sa",
+    "connector": "mssql",
+    "requestTimeout": 300000
+  }
+}

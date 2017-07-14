@@ -1,0 +1,12 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "redisds": {
+    "name": "redisds",
+    "connector": "loopback-connector-redis",
+    "host": "",
+    "port": 6379
+  }
+}
