@@ -1,0 +1,22 @@
+{
+  "name": "phonebook",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "contacts": {
+      "type": [
+        "object"
+      ]
+    },
+    "counter": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
